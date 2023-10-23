@@ -11,7 +11,7 @@ plugins {
 }
 
 group = "lol.koblizek"
-version = "0.2.1"
+version = "0.2.2"
 
 tasks.getByName("build").finalizedBy("shadowJar")
 val dependency: Configuration by configurations.creating
